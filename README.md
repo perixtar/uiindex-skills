@@ -33,7 +33,7 @@ The research skill can use either the UI Index MCP tools, when configured, or to
 - [Agent entry point](https://uiindex.design/llms.txt)
 - Individual study records and design artifacts linked by the index
 
-The development MCP implementation lives separately in `services/mcp/` in the BetterDesign workspace. It is not part of this skills distribution. A public authenticated MCP endpoint and paid plans are not live yet; installing a skill does not subscribe the user or enable a paid service.
+The MCP implementation lives separately in the private application workspace and is not part of this skills distribution. Free local use reads the public exports. A managed endpoint is staged at `https://uiindex.design/api/mcp/`; when live, it will require a UI Index account, an active Individual ($9/month) or Team ($15/month) plan, and a bearer token created on the account page. Production checkout remains disabled during payment-account activation. Installing a skill does not subscribe the user or authorize payment.
 
 ## Try it
 
